@@ -1,12 +1,11 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1 class="text-6xl">You did it!</h1>
-  <p>
-    Visit
-    <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to
-    read the documentation
-  </p>
+  <header class="bg-[#0a0a23] p-8 border-b-4 border-[#fdb347]">
+    <h1 class="text-white uppercase text-center font-bold text-2xl font-roboto">
+      Pokemon gallery
+    </h1>
+  </header>
 </template>
 
 <style scoped></style>
