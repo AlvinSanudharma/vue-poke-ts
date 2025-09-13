@@ -10,7 +10,9 @@
           class="relative w-[120px] h-[120px] rounded-full bg-gray-300"
         ></div>
         <img
-          src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+          v-lazy="{
+            src: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png',
+          }"
           alt=""
           class="absolute top-0 right-0 left-0"
         />
