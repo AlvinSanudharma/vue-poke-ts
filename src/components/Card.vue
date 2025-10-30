@@ -14,7 +14,7 @@
             src: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png',
           }"
           alt=""
-          class="absolute top-0 right-0 left-0"
+          class="absolute h-full w-full object-cover"
         />
       </div>
     </div>
